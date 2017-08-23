@@ -1,0 +1,14 @@
+vCloud Director driver for docker-machine based on vcloudair driver @ https://github.com/docker/machine/blob/master/drivers/vmwarevcloudair
+
+Mandatory parameters:
+
+vmwarevclouddirector-username
+vmwarevclouddirector-password
+vmwarevclouddirector-vdc: vcd tenant
+vmwarevclouddirector-org: vcd tenant organization
+vmwarevclouddirector-href: vcd api endpoint (don't forget to includ /api without trailing slash!) ex.: https://vdc.host/api 
+vmwarevclouddirector-publicip: external public ip to attach gateway 
+vmwarevclouddirector-orgvdcnetwork: vdc network to find gateway
+vmwarevclouddirector-catalog
+vmwarevclouddirector-catalogitem
+vmwarevclouddirector-insecure: bool whether to allow insecure connections to vCloud API
